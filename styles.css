@@ -13,6 +13,7 @@ html {
 header {
 	width: 75%;
 	display: flex;
+	text-align: center;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -22,6 +23,12 @@ header {
 header > h1 {
 	font-size: 5rem;
 	font-weight: 300;
+	padding: 1rem;
+}
+
+header > p {
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
 }
 
 body {
