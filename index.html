@@ -16,12 +16,16 @@
 		<p>Turian is a simple app that allows you to better budget your money. You can add your income, expense categories and their amounts, and see a quick calculation of what your remaining balance is.</p>
 	</header>
 <main>
-		<div class="column" id="income"></div>
-		<div class="column" id="categories">
-			<button type="button">Add Category</button>
+	<div class="column">
+		<input id="income" type="number"></input>
+		<div id="categories">
+		<button type="button">Add Category</button>
 		</div>
+
+	</div>
+
 		<div class="column" id="expense">
-			<input readonly></input>
+		<input id="result" readonly></input>
 		</div>
 </main>
 </body>
