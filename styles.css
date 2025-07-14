@@ -45,4 +45,24 @@ main {
 	width: 50%;
 	border: 2px solid grey;
 	border-radius: 5px;
+	display: flex;
+}
+
+.column {
+	border: 1px solid black;
+}
+
+#income {
+	height: 100%;
+	width: 20%;
+}
+
+#categories {
+	height: 100%;
+	width: 40%;
+}
+
+#expense {
+	height: 100%;
+	width: 40%;
 }
