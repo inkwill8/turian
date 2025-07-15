@@ -18,10 +18,11 @@
 <main>
 	<div class="column">
 		<input id="income" type="number"></input>
+		<p id="label">Income</p>
 	<div id="categories">
 		<select name="categories">
 			<option value="default" selected>Select an option</option>
-			<option value="rent" >Rent</option>
+			<option value="rent">Rent</option>
 			<option value="groceries">Groceries</option>
 			<option value="entertainment">Entertainment</option>
 			<option value="electricity">Electricity</option>
@@ -33,7 +34,9 @@
 	</div>
 
 		<div class="column" id="expense">
-		<input id="result" readonly></input>
+			<input type="number"></input>
+			<input id="result" readonly></input>
+			<p id="label">Result</p>
 		</div>
 </main>
 </body>
